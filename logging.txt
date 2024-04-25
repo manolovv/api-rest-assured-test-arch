@@ -1,0 +1,178 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userEmail": "mam96@abv.bg",
+    "userPassword": "Manolov123*()"
+}
+HTTP/1.1 200 OK
+Date: Thu, 25 Apr 2024 11:37:06 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 348
+ETag: W/"15c-2dY8l0R9ww4U3hNjWgUk78lSGG0"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWNmMmUzN2E4NmY4Zjc0ZGM3YTcxNzIiLCJ1c2VyRW1haWwiOiJtYW05NkBhYnYuYmciLCJ1c2VyTW9iaWxlIjoxMjM0NTY3ODkwLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzE0MDQ1MDI2LCJleHAiOjE3NDU2MDI2MjZ9.vagqktG-WzdO_cnLX8riw8U2pMlYztwHjvl0awcE9M8",
+    "userId": "65cf2e37a86f8f74dc7a7172",
+    "message": "Login Successfully"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/add-product
+Proxy:			<none>
+Request params:	productSubCategory=kofeni
+				productFor=MEN
+				productName=nadaren
+				productPrice=999999
+				productDescription=Golemec
+				productAddedBy=65cf2e37a86f8f74dc7a7172
+				productCategory=dadenosti
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWNmMmUzN2E4NmY4Zjc0ZGM3YTcxNzIiLCJ1c2VyRW1haWwiOiJtYW05NkBhYnYuYmciLCJ1c2VyTW9iaWxlIjoxMjM0NTY3ODkwLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzE0MDQ1MDI2LCJleHAiOjE3NDU2MDI2MjZ9.vagqktG-WzdO_cnLX8riw8U2pMlYztwHjvl0awcE9M8
+				Accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = productImage; filename = image.jpg
+				Content-Type: application/octet-stream
+
+				\Users\User\Downloads\image.jpg
+Body:			<none>
+HTTP/1.1 201 Created
+Date: Thu, 25 Apr 2024 11:37:08 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 79
+ETag: W/"4f-huzqzycfXwogosl1kM/jLE0mido"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "productId": "662a4064a86f8f74dcce32d9",
+    "message": "Product Added Successfully"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/api/ecom/order/create-order
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWNmMmUzN2E4NmY4Zjc0ZGM3YTcxNzIiLCJ1c2VyRW1haWwiOiJtYW05NkBhYnYuYmciLCJ1c2VyTW9iaWxlIjoxMjM0NTY3ODkwLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzE0MDQ1MDI2LCJleHAiOjE3NDU2MDI2MjZ9.vagqktG-WzdO_cnLX8riw8U2pMlYztwHjvl0awcE9M8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "orders": [
+        {
+            "country": "Bulgaria",
+            "productOrderedId": "662a4064a86f8f74dcce32d9"
+        }
+    ]
+}
+HTTP/1.1 201 Created
+Date: Thu, 25 Apr 2024 11:37:09 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 123
+ETag: W/"7b-puPa76HUFI3tZnOFmA3nmu0Xefc"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "orders": [
+        "662a4065a86f8f74dcce32dd"
+    ],
+    "productOrderId": [
+        "662a4064a86f8f74dcce32d9"
+    ],
+    "message": "Order Placed Successfully"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/api/ecom/product/delete-product/662a4064a86f8f74dcce32d9
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	productId=662a4064a86f8f74dcce32d9
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWNmMmUzN2E4NmY4Zjc0ZGM3YTcxNzIiLCJ1c2VyRW1haWwiOiJtYW05NkBhYnYuYmciLCJ1c2VyTW9iaWxlIjoxMjM0NTY3ODkwLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzE0MDQ1MDI2LCJleHAiOjE3NDU2MDI2MjZ9.vagqktG-WzdO_cnLX8riw8U2pMlYztwHjvl0awcE9M8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 25 Apr 2024 11:37:10 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+ETag: W/"2a-2mOwR6FOFcYds+NaVy6wWIOyKCY"
+Vary: Accept-Encoding
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "message": "Product Deleted Successfully"
+}
